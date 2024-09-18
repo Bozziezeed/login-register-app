@@ -1,0 +1,47 @@
+# Node modules
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+
+# Environment variables
+**/.env
+**/.env.*
+
+# Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+
+# Testing
+**/coverage/
+
+# Nest.js specific
+**/nest-cli.json
+
+# Next.js specific
+**/.next/
+**/out/
+
+# Misc
+**/.npm
+**/.eslintcache
+**/.stylelintcache
+
+# Keep .gitkeep files
+!**/.gitkeep
